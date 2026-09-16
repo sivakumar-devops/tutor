@@ -92,5 +92,14 @@ The common AI Tutor layout update was browser-tested on 2026-09-15. Checks cover
 The PYQ tutor update was browser-tested on 2026-09-15. Checks covered Full Year Papers rendering as an embedded AI Tutor, removal of the direct paper-list view, the two visible PYQ tabs, expandable syllabus-wise sidebar group, subject shortcuts, year dropdown/manual-year handling, Practice and Teaching modes, question progression, teaching explanations, typed tutor replies, URL state, and mobile layout. Temporary test files and screenshots were removed after inspection.
 
 The app-wide language update was browser-tested on 2026-09-15. Checks covered the header-level Tamil/English selector, removal of page-level bilingual tutor choices, local preference persistence after reload, Tamil navigation/sidebar/PYQ tutor rendering, Tamil syllabus tutor replies, English fallback switching, and absence of the removed `Tamil + English` option.
-#   t u t o r  
+#   t u t o r 
+
+# prompt
+Remove the **Syllabus Details** section from the application sidebar. Its subject and topic navigation duplicates the filters and topic cards already available on the **Syllabus Tutor** page.
+
+Keep syllabus browsing and topic selection within Syllabus Tutor. Students should still be able to search topics, filter by Tamil, General Studies, or Aptitude, and continue their current lesson.
+
+After removing the section, use the freed sidebar space to make the primary navigation easier to scan. Check that links to the syllabus tutor and previous-year question pages remain easy to find on desktop and mobile.
+
+ 
  
